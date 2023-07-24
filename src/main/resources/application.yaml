@@ -1,0 +1,22 @@
+server:
+  port: 8086
+
+cbr:
+  url: "https://www.cbr-xml-daily.ru/daily_json.js"
+
+app:
+  rest:
+    api:
+      prefix: /currency
+
+#spring:
+#  cache:
+#    caffeine:
+#      spec: maximumSize=3,expireAfterAccess=24h
+
+#logging:
+#  level:
+#    com.deds : DEBUG
+#  file:
+#    name: logs/CurrencyRateService.log
+
